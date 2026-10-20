@@ -95,7 +95,7 @@ systemctl reload nginx
 echo "======================================"
 echo "Running Certbot (non-interactive)..."
 echo "======================================"
-certbot --nginx -d qazaqitacademy-edu.pp.ua -d www.qazaqitacademy-edu.pp.ua --non-interactive --agree-tos -m wennyqwerty4@gmail.com --redirect || echo "Certbot encountered an issue, but will continue."
+certbot --nginx -d qazaqitacademy-edu.pp.ua -d www.qazaqitacademy-edu.pp.ua --non-interactive --agree-tos -m admin@example.com --redirect || echo "Certbot encountered an issue, but will continue."
 
 echo "======================================"
 echo "Deployment complete."
